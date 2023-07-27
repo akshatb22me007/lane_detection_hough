@@ -34,13 +34,13 @@ def adjust_gamma(image, gamma):
     
     return adjusted_image
 
-cap = cv.VideoCapture(0)
+
 
 
 while 1:
 
-    ret,img = cap.read()
-    # img = cv.imread('lane2.jpg')
+   
+    img = cv.imread('lane.jpg')
     gray = cv.cvtColor(img,cv.COLOR_BGR2GRAY)
 
 
